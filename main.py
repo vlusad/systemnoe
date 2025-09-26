@@ -40,8 +40,9 @@ def monitor_with_changes():
                     del file_info[file]
 
     except KeyboardInterrupt:
-        print("Остановлено")
+        print("!Остановлено!")
 
 
 # Запуск
+
 monitor_with_changes()
