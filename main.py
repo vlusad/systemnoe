@@ -11,7 +11,7 @@ def monitor_with_changes():
         if os.path.isfile(file_path):
             file_info[file] = os.path.getmtime(file_path)
 
-    print("Мониторинг изменений...")
+    print("Мониторинг изменений................")
 
     try:
         while True:
@@ -46,3 +46,4 @@ def monitor_with_changes():
 # Запуск
 
 monitor_with_changes()
+
